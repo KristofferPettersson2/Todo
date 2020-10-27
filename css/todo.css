@@ -1,0 +1,17 @@
+#todo-list li {
+    list-style-type: none;
+    width: 70%;
+}
+#todo-list li input[type="checkbox"] {
+    margin-left: 20px;
+}
+
+.remove {
+    float: right;
+    padding-right: 20px;
+    font-size: 200%;
+    position: relative;
+    bottom: 15px;
+    text-decoration: none !important;
+}
+.checked{text-decoration: line-through;}
